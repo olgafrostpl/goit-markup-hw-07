@@ -38,9 +38,9 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+/* #endregion */
 
-
-/* Reset */
+/* #region Reset */
 body {
   color: var(--color-text);
   font-family: 'Roboto', sans-serif;
@@ -88,9 +88,9 @@ address {
   font-style: normal;
 }
 
-/* /RESET */
+/* #endregion */
 
-/* Components */
+/* #region Components */
 .container {
   width: 100%;
   max-width: 428px;
@@ -227,9 +227,9 @@ address {
   fill: var(--color-white);
 }
 
-/* /Components */
+/* #endregion */
 
-/* Header */
+/* #region Header */
 .header {
   display: flex;
   align-items: center;
@@ -362,16 +362,16 @@ address {
   }
 }
 
-/* /Header */
+/* #endregion */
 
-/* Mobile menu */
+/* #region Mobile menu */
 .menu-mobile {
   display: none;
   z-index: 100;
 }
-/* /Mobile menu */
+/* #endregion */
 
-/* Mobile menu 0 - 767px */
+/* #region Mobile menu 0 - 767px */
 @media screen and (max-width: 767px) {
   .menu-mobile {
     display: block;
@@ -432,9 +432,9 @@ address {
     max-width: 328px;
   }
 }
-/* /Mobile menu 0 - 767px */
+/* #endregion */
 
-/* Mobile menu 0 - 428px */
+/* #region Mobile menu 0 - 428px */
 @media screen and (max-width: 428px) {
   .menu-mobile > .container {
     padding: 18.69vw 9.35vw 9.35vw 9.35vw;
@@ -458,9 +458,9 @@ address {
     font-size: 4.67vw;
   }
 }
-/* /Mobile menu 0 - 428px */
+/* #endregion */
 
-/* Footer */
+/* #region Footer */
 .footer {
   color: var(--color-accent);
   background-color: var(--color-dark);
@@ -643,9 +643,9 @@ address {
 .icon-subscribe {
   fill: var(--color-white);
 }
-/* /Footer */
+/* #endregion */
 
-/* Hero */
+/* #region Hero */
 .hero {
   max-width: 1440px;
   color: var(--color-white);
@@ -756,9 +756,9 @@ address {
   margin-right: auto;
 }
 
-/* /Hero */
+/* #endregion */
 
-/* Benefits */
+/* #region Benefits */
 .benefits-list {
   display: flex;
   flex-direction: column;
@@ -830,9 +830,9 @@ address {
   }
 }
 
-/* /Benefits */
+/* #endregion */
 
-/* Illustrations*/
+/* #region Illustrations*/
 .illustrations {
   display: none;
 }
@@ -850,9 +850,9 @@ address {
   }
 }
 
-/* /Illustrations */
+/* #endregion */
 
-/* Our team */
+/* #region Our team */
 .team {
   background-color: var(--color-light);
 }
@@ -897,9 +897,9 @@ address {
   margin-bottom: 8px;
 }
 
-/* /Illustrations */
+/* #endregion */
 
-/* Customers */
+/* #region Customers */
 .customers-title {
   text-transform: capitalize;
 }
@@ -958,9 +958,9 @@ address {
   height: 56px;
 }
 
-/* /Customers */
+/* #endregion */
 
-/* Portfolio */
+/* #region Portfolio */
 .portfolio {
   padding-top: 48px;
   padding-bottom: 48px;
@@ -1103,9 +1103,9 @@ address {
   margin-bottom: 8px;
 }
 
-/* /Portfolio */
+/* #endregion */
 
-/* Modal window */
+/* #region Modal window */
 .backdrop {
   position: fixed;
   top: 0;
@@ -1286,4 +1286,4 @@ address {
   min-width: 169px;
   height: 56px;
 }
-/* /Modal window */
+/* #endregion */
